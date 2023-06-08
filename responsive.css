@@ -1,0 +1,239 @@
+@media all and (max-width: 400px) {
+  .nav-links {
+    display: none;
+  }
+  .ham-menu {
+    display: block;
+  }
+  .header-content span {
+    font-size: 22px;
+  }
+
+  .header-content h1 {
+    font-size: 38px;
+  }
+
+  .type-container {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .profile-img {
+    float: none;
+    border: 0px solid gray;
+    width: 100%;
+    margin: auto;
+  }
+  .inner-content {
+    position: relative;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+  }
+
+  .profile-content {
+    float: none;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .services {
+    width: 100%;
+  }
+
+  .portfolio-gallery .img {
+    width: 96%;
+  }
+
+  .img i {
+    font-size: 25px;
+  }
+
+  .achievement-data {
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+  .card-content {
+    float: none;
+    width: 100%;
+    text-align: left;
+  }
+  .card-content p {
+    width: 100%;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .card .face {
+    left: 50%;
+
+    transform: translate(-50%, 0%);
+  }
+
+  .blog-post {
+    width: 100%;
+    margin: auto;
+    float: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .blog-content p {
+    width: 100%;
+  }
+  .profile-content .part-1 {
+    float: none;
+  }
+  .profile-content .part-2 {
+    float: none;
+  }
+  #form-name {
+    width: 100%;
+    float: none;
+  }
+  #form-email {
+    width: 100%;
+    float: none;
+  }
+}
+
+@media all and (min-width: 401px) and (max-width: 779px) {
+  .nav-links {
+    display: none;
+  }
+  .ham-menu {
+    display: block;
+  }
+  .header-content span {
+    font-size: 22px;
+  }
+
+  .header-content h1 {
+    font-size: 38px;
+  }
+
+  .type-container {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .profile-img {
+    float: none;
+    border: 0px solid gray;
+    width: 360px;
+    margin: auto;
+  }
+  .inner-content {
+    position: relative;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+  }
+
+  .profile-content {
+    float: none;
+    width: 360px;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .services {
+    width: 100%;
+  }
+
+  .portfolio-gallery .img {
+    width: 96%;
+  }
+
+  .img i {
+    font-size: 25px;
+  }
+
+  .achievement-data {
+    width: 100%;
+  }
+  .card {
+    width: 80%;
+  }
+  .card-content {
+    float: none;
+    width: 100%;
+    text-align: left;
+  }
+  .card-content p {
+    width: 100%;
+  }
+  .card .face {
+    left: 50%;
+
+    transform: translate(-50%, 0%);
+  }
+
+  .blog-post {
+    width: 80%;
+    margin: auto;
+    float: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .blog-content p {
+    width: 100%;
+  }
+  #form-name {
+    width: 100%;
+    float: none;
+  }
+  #form-email {
+    width: 100%;
+    float: none;
+  }
+}
+
+@media all and (min-width: 780px) and (max-width: 1111px) {
+  .nav-links {
+    display: block;
+  }
+  .ham-menu {
+    display: none;
+  }
+  .profile-img {
+    float: left;
+    border: 0px solid gray;
+    margin-top: 75px;
+    margin-left: 0px;
+  }
+
+  .inner-content {
+    position: relative;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+  }
+  .profile-content {
+    float: right;
+    width: 50%;
+    margin-right: 0px;
+  }
+
+  .services {
+    width: 50%;
+  }
+
+  .portfolio-gallery .img {
+    width: 46%;
+  }
+
+  .achievement-data {
+    width: 50%;
+  }
+  .blog-content h3 {
+    font-size: 20px;
+  }
+}
+
+@media all and (min-width: 1112px) {
+  .ham-menu {
+    display: none;
+  }
+}
